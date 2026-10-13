@@ -8,8 +8,7 @@ public class Professor extends Funcionario {
     }
 
     public Professor(String nome, String cpf, String urlCurriculoLattes) {
-        // o diagrama nao passa cracha e salario aqui, entao comecam zerados
-        // e podem ser definidos depois pelos sets
+        
         super(nome, cpf, 0, 0.0);
         this.urlCurriculoLattes = urlCurriculoLattes;
     }
