@@ -6,8 +6,7 @@ public class Atendente extends Funcionario {
     }
 
     public Atendente(String nome, String cpf, String setor, String funcao) {
-        // o diagrama nao passa cracha e salario aqui, entao comecam zerados
-        // e podem ser definidos depois pelos sets
+      
         super(nome, cpf, 0, 0.0);
         this.setor = setor;
         this.funcao = funcao;
